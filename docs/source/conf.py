@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.abspath('../../../'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.viewcode',
-#              'sphinx.ext.autodoc',
+              #              'sphinx.ext.autodoc',
               'sphinx.ext.githubpages',
               'sphinx.ext.intersphinx']
 
@@ -93,10 +93,10 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-        "description": "An easy to use and comprehensive python package which aids in the analysis and visualization of comparative evolutionary genetics",
-        "github_user": "Datasnakes",
-        "github_repo": "OrthoEvolution",
-        "github_banner": True
+    "description": "An easy to use and comprehensive python package which aids in the analysis and visualization of comparative evolutionary genetics",
+    "github_user": "Datasnakes",
+    "github_repo": "OrthoEvolution",
+    "github_banner": True
 }
 
 
@@ -120,7 +120,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OrthoEvolutiondoc'
+htmlhelp_basename = 'OrthoEvolution'
 
 
 # -- Options for LaTeX output ---------------------------------------------
